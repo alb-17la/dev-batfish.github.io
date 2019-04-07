@@ -72,3 +72,15 @@ a:hover {
     color: $color_accent;
     text-decoration: underline;
 }
+
+.nav-item a {
+    padding: .5rem;
+}
+.nav-item a.active{
+    border-bottom: 2px solid;
+    padding: .5rem;
+}
+
+a:not([href]):not([tabindex]) {
+    color: $color_accent;
+}
